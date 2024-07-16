@@ -3,6 +3,6 @@ resources:
 namespace: dev-namespace
 images:
   - name: nginx
-    newTag: "1.26"
+    newTag: "1.20"
 patches:
   - path: virtualservice-patch.yaml

@@ -16,3 +16,12 @@ spec:
             host: nginx-service
             port:
               number: 80
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: nginx-service
+            port:
+              number: 80  
+
