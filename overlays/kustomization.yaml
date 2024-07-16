@@ -1,8 +1,8 @@
 resources:
   - ../base
-namespace: test-namespace
+namespace: dev-namespace
 images:
   - name: nginx
-    newTag: "1.21"
+    newTag: "1.26"
 patches:
   - path: virtualservice-patch.yaml

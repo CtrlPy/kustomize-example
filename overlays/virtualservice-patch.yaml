@@ -4,4 +4,4 @@ metadata:
   name: nginx-virtualservice
 spec:
   hosts:
-    - "test.localtest.me"
+    - "dev.localtest.me"

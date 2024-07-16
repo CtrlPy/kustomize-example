@@ -6,11 +6,11 @@ spec:
   hosts:
     - "default.localtest.me"
   gateways:
-    - nginx-gateway
+  - istio-ingress/ingressgateway
   http:
     - match:
         - uri:
-            exact: /
+            prefix: /api
       route:
         - destination:
             host: nginx-service
